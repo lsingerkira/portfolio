@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import type React from 'react';
+import Footer from '@/components/Footer/Footer';
 
 type NavbarItemProps = {
 	active?: boolean;
@@ -48,6 +49,11 @@ export default function Home() {
 				<Navbar />
 				<div className='size-5 bg-blue-500'></div>
 			</header>
+			<Footer links={[
+				{ title: 'About', url: '#' },
+				{ title: 'Projects', url: '#' },
+				{ title: 'Contact', url: '#' }
+			]} />
 		</main>
 	);
 }
