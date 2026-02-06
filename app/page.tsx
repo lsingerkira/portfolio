@@ -26,7 +26,7 @@ function NavbarItem(props: NavbarItemProps) {
 
 	return (
 		<li className='cursor-pointer gap-1 rounded-md px-3 py-2 font-medium text-foreground text-sm leading-6 focus-within:ring focus-within:ring-teal-400 hover:text-teal-500'>
-			<a href={path} className='outline-none'>
+			<Link href={path} className='outline-none'>
 				{children}
 			</Link>
 		</li>
