@@ -13,14 +13,14 @@ function NavbarItem(props: NavbarItemProps) {
 	if (active) {
 		return (
 			<li className='relative cursor-pointer gap-1 bg-transparent px-3 py-2 font-medium text-sm text-teal-500 leading-6 focus-visible:ring focus-visible:ring-teal-400'>
-				<span className='absolute right-0 bottom-0 left-0 h-px bg-linear-to-r from-15% from-white via-50% via-teal-500 to-85% to-white'></span>
+				<span className='absolute right-0 bottom-0 left-0 h-px bg-linear-to-r from-15% from-transparent via-teal-500 to-transparent'></span>
 				<a href={path}>{children}</a>
 			</li>
 		);
 	}
 
 	return (
-		<li className='cursor-pointer gap-1 rounded-md px-3 py-2 font-medium text-sm text-zinc-800 leading-6 focus-within:ring focus-within:ring-teal-400 hover:text-teal-500'>
+		<li className='cursor-pointer gap-1 rounded-md px-3 py-2 font-medium text-sm text-foreground leading-6 focus-within:ring focus-within:ring-teal-400 hover:text-teal-500'>
 			<a href={path} className='outline-none'>
 				{children}
 			</a>
@@ -30,7 +30,7 @@ function NavbarItem(props: NavbarItemProps) {
 
 function Navbar() {
 	return (
-		<ul className='flex flex-row rounded-full border border-zinc-500/5 bg-white px-3 shadow-lg'>
+		<ul className='flex items-center gap-1 rounded-full px-3 py-1 bg-background/70 backdrop-blur-md border border-white/10 shadow-md shadow-black/30 text-foreground'>
 			<NavbarItem path='#'>Home</NavbarItem>
 			<NavbarItem path='#' active={true}>
 				About

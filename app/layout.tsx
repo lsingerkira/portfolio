@@ -19,10 +19,8 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body
-				className={`${robotoSans.variable} font-sans antialiased min-h-screen bg-background text-foreground`}
-			>
-  				{children}
+			<body className={`${robotoSans.variable} font-sans antialiased min-h-screen bg-background text-foreground`}>
+				{children}
 			</body>
 		</html>
 	);

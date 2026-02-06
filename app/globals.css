@@ -1,6 +1,6 @@
 html,
 body {
-  height: 100%;
+	height: 100%;
 }
 
 @import "tailwindcss";
@@ -10,18 +10,18 @@ body {
 	--foreground: #171717;
 }
 
-
 html.dark {
-  --background: #161313;
-  --foreground: #ededed;
+	--background: #17171a;
+	--foreground: #ededed;
 }
-
 
 /* Apply theme variables to the whole page so toggling the .dark class updates background and text */
 body {
 	background-color: var(--background);
 	color: var(--foreground);
-	transition: background-color 0.25s ease, color 0.25s ease;
+	transition:
+		background-color 0.25s ease,
+		color 0.25s ease;
 	min-height: 100vh;
 }
 
