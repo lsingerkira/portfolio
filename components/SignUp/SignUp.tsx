@@ -65,7 +65,7 @@ const SignupWidget = ({ title, content, simulateNetworkRequestTime = 2000 }: Sig
 							disabled={busy}
 							onChange={(e) => setEmail(e.target.value)}
 							className='flex-1 rounded-md border border-zinc-200 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500'
-							placeholder='you@example.com'
+							placeholder='Email address'
 						/>
 
 						<button
@@ -82,7 +82,5 @@ const SignupWidget = ({ title, content, simulateNetworkRequestTime = 2000 }: Sig
 		</form>
 	);
 };
-
-
 
 export default SignupWidget;
