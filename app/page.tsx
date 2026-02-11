@@ -44,7 +44,7 @@ function Navbar() {
 	);
 }
 
-export default function Home() {
+export default function Page() {
 	return (
 		<main className='flex min-h-screen flex-col'>
 			<header className='flex h-18 items-center justify-between px-24 pt-6 pb-2'>

@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import './globals.css';
 
+import Footer from '@/components/Footer/Footer';
+import { MENU_ITEMS } from '@/lib/types';
+
 const robotoSans = Roboto({
 	variable: '--font-roboto-sans',
 	subsets: ['latin'],
@@ -21,6 +24,7 @@ export default function RootLayout({
 		<html lang='en'>
 			<body className={`${robotoSans.variable} min-h-screen bg-background font-sans text-foreground antialiased`}>
 				{children}
+				<Footer links={MENU_ITEMS} />
 			</body>
 		</html>
 	);
