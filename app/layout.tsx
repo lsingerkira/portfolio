@@ -2,6 +2,11 @@ import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import './globals.css';
 
+import { Footer } from '@/components/Footer';
+import { Navbar } from '@/components/Navbar';
+import { ThemeSwitcher } from '@/components/ThemeSwitcher';
+import { MENU_ITEMS } from '@/lib/constants';
+
 const robotoSans = Roboto({
 	variable: '--font-roboto-sans',
 	subsets: ['latin'],
@@ -19,8 +24,19 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={`${robotoSans.variable} min-h-screen bg-background font-sans text-foreground antialiased`}>
-				{children}
+			<body
+				className={`${robotoSans.variable} bg-zinc-50 px-4 font-sans antialiased lg:px-20 dark:bg-black`}
+				suppressHydrationWarning
+			>
+				<div className='mx-auto flex min-h-screen max-w-7xl flex-col bg-background'>
+					<header className='flex h-18 items-center justify-between px-24 pt-6 pb-2'>
+						<div className='size-5 opacity-0'></div>
+						<Navbar links={MENU_ITEMS} />
+						<ThemeSwitcher />
+					</header>
+					<main className='flex-1'>{children}</main>
+					<Footer links={MENU_ITEMS} />
+				</div>
 			</body>
 		</html>
 	);
