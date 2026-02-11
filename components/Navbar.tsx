@@ -16,9 +16,11 @@ export function NavbarItem(props: NavbarItemProps) {
 	const { children, path, active = false } = props;
 	if (active) {
 		return (
-			<li className='relative cursor-pointer gap-1 bg-transparent px-3 py-2 font-medium text-sm text-teal-500 leading-6 focus-visible:ring focus-visible:ring-teal-400'>
+			<li className='relative cursor-pointer gap-1 rounded-md bg-transparent px-3 py-2 font-medium text-sm text-teal-500 leading-6 focus-within:ring focus-within:ring-teal-400'>
 				<span className='absolute right-0 bottom-0 left-0 h-px bg-linear-to-r from-15% from-transparent via-teal-500 to-transparent'></span>
-				<a href={path}>{children}</a>
+				<Link href={path} className='outline-none'>
+					{children}
+				</Link>
 			</li>
 		);
 	}

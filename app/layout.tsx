@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={`${robotoSans.variable} bg-zinc-50 px-20 font-sans antialiased dark:bg-black`}>
+			<body className={`${robotoSans.variable} bg-zinc-50 px-20 font-sans antialiased dark:bg-black`} suppressHydrationWarning>
 				<div className='flex min-h-screen flex-col bg-background'>
 					<header className='flex h-18 items-center justify-between px-24 pt-6 pb-2'>
 						<div className='size-5 opacity-0'></div>
