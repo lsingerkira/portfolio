@@ -28,14 +28,14 @@ export function Intro() {
 
 			{/* Social links */}
 			<div className='flex gap-4 text-gray-600'>
-				<Link href='#' className='hover:text-black'>
-					Twitter
+				<Link href='#' className='hover:opacity-70'>
+					<Image src='/X.svg' alt='X (Twitter)' width={24} height={24} />
 				</Link>
-				<Link href='#' className='hover:text-black'>
-					GitHub
+				<Link href='#' className='hover:opacity-70'>
+					<Image src='/GitHub.svg' alt='GitHub' width={24} height={24} />
 				</Link>
-				<Link href='#' className='hover:text-black'>
-					LinkedIn
+				<Link href='#' className='hover:opacity-70'>
+					<Image src='/LinkedIn.svg' alt='LinkedIn' width={24} height={24} />
 				</Link>
 			</div>
 		</section>
