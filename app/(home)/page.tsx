@@ -1,4 +1,5 @@
 import { ArticleCard } from '@/components/ArticleCard';
+import { Intro } from '@/components/Intro';
 import { SignupWidget } from '@/components/SignUp';
 import { WorkWidget } from '@/components/Work';
 
@@ -32,6 +33,7 @@ const experiences = [
 		endYear: 2011,
 	},
 ];
+import { SkillsWidget } from '@/components/SkillsWidget';
 
 export default function Home() {
 	return (
@@ -68,6 +70,14 @@ export default function Home() {
 						title={'Work'}
 						content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utet massa mi.'}
 						experiences={experiences}
+					<SkillsWidget
+						title={'My Skills'}
+						content={'lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.'}
+						skills={[
+							{ icon: '/icons/html.svg', name: 'HTML', proficiency: 25 },
+							{ icon: '/icons/css.svg', name: 'CSS', proficiency: 25 },
+							{ icon: '/icons/js.svg', name: 'JavaScript', proficiency: 25 },
+						]}
 					/>
 				</div>
 			</div>
