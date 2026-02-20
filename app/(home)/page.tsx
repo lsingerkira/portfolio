@@ -42,7 +42,7 @@ export default function Page() {
 		<main className='mx-auto flex max-w-[1280px] flex-col gap-6 px-4 pt-6 pb-16 lg:px-[144px]'>
 			<Intro />
 			<div className='flex flex-col gap-6 lg:w-full lg:flex-row lg:items-start lg:justify-between'>
-				<div className='space-y-8 lg:flex-1'>
+				<div className='space-y-8 lg:flex-1 dark:text-zinc-400'>
 					<ArticleCard
 						date='2023-12-25'
 						title='Lorem ipsum dolor sit amet'

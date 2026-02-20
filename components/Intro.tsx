@@ -21,7 +21,7 @@ export function Intro() {
 			<h1 className='font-bold text-4xl leading-tight'>Software engineer, father, and believer</h1>
 
 			{/* Description */}
-			<p className='text-base text-gray-600 leading-relaxed'>
+			<p className='text-base text-gray-600 leading-relaxed dark:text-zinc-400'>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut et massa mi. Lorem ipsum dolor sit amet consectetur
 				adipisicing elit. Ut et massa mi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut et massa mi.
 			</p>

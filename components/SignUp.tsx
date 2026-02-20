@@ -49,7 +49,7 @@ export function SignupWidget({ title, content, simulateNetworkRequestTime = 2000
 
 			{!isSubscribed && (
 				<>
-					<p data-testid={'signupWidgetContent'} className='mb-4 text-sm text-zinc-600'>
+					<p data-testid={'signupWidgetContent'} className='mb-4 text-sm text-zinc-600 dark:text-zinc-400'>
 						{content}
 					</p>
 

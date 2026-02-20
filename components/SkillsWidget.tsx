@@ -14,7 +14,7 @@ export function SkillsWidget({ title, content, skills = [] }: SkillsWidgetProps)
 	return (
 		<section
 			data-testid='skillsWidget'
-			className='flex flex-col gap-[24px] rounded-[16px] border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700/40 dark:bg-gray-900'
+			className='flex flex-col gap-[24px] rounded-[16px] border border-gray-200 bg-white p-6 shadow-sm dark:border-zinc-700 dark:bg-zinc-900'
 			style={{
 				width: '398px', // Fixed width (Figma)
 				height: 'auto', // Hug content (Figma)
@@ -30,7 +30,7 @@ export function SkillsWidget({ title, content, skills = [] }: SkillsWidgetProps)
 
 			<p
 				data-testid='skillsWidgetContent'
-				className='text-gray-600 text-sm leading-snug dark:text-gray-300'
+				className='text-gray-600 text-sm leading-snug dark:text-zinc-400'
 				style={{ wordWrap: 'break-word' }}
 			>
 				{content}

@@ -19,7 +19,7 @@ export function WorkWidget({ title, content, experiences = [] }: WorkWidgetProps
 		<section
 			data-testid='workWidget'
 			// Figma: Width 398px / Radius 16px / Border 1px / Padding 24px
-			className='w-full rounded-2xl border border-zinc-100 bg-white p-6 text-zinc-900 sm:w-[398px] dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100'
+			className='w-full rounded-2xl border border-gray-200 bg-white p-6 text-zinc-900 shadow-sm sm:w-[398px] dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100'
 		>
 			<h2
 				data-testid='workWidgetTitle'
@@ -29,7 +29,7 @@ export function WorkWidget({ title, content, experiences = [] }: WorkWidgetProps
 				{title}
 			</h2>
 
-			<p data-testid='workWidgetContent' className='mt-2 text-sm text-zinc-600 leading-6'>
+			<p data-testid='workWidgetContent' className='mt-2 text-sm text-zinc-600 leading-6 dark:text-zinc-400'>
 				{content}
 			</p>
 

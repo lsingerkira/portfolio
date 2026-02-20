@@ -19,7 +19,7 @@ export default function AboutPage() {
 						I&apos;m Bob. I live in New York City, where I develop the future.
 					</h1>
 
-					<div className='space-y-6 text-base text-muted-foreground leading-7'>
+					<div className='space-y-6 text-base text-muted-foreground leading-7 dark:text-zinc-400'>
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
 							adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum
@@ -52,7 +52,7 @@ export default function AboutPage() {
 					</div>
 
 					{/* Social Links */}
-					<div className='space-y-4'>
+					<div className='space-y-4 dark:text-zinc-400'>
 						<Link
 							href='#'
 							className='flex items-center gap-3 text-muted-foreground text-sm transition-colors hover:text-foreground'
