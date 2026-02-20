@@ -14,11 +14,7 @@ export function SkillsWidget({ title, content, skills = [] }: SkillsWidgetProps)
 	return (
 		<section
 			data-testid='skillsWidget'
-			className='flex flex-col gap-[24px] rounded-[16px] border border-gray-200 bg-white p-6 shadow-sm dark:border-zinc-700 dark:bg-zinc-900'
-			style={{
-				width: '398px', // Fixed width (Figma)
-				height: 'auto', // Hug content (Figma)
-			}}
+			className='w-full rounded-2xl border border-gray-200 bg-white p-6 shadow-sm sm:w-[398px] dark:border-zinc-700 dark:bg-zinc-900'
 		>
 			<h2
 				data-testid='skillsWidgetTitle'
