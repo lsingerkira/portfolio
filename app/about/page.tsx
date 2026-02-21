@@ -7,7 +7,7 @@ export default function AboutPage() {
 			{/* Mobile: Photo on top */}
 			<div className='mb-8 md:hidden'>
 				<div className='relative aspect-4/5 w-full overflow-hidden rounded-2xl'>
-					<Image src='/profile.jpg' alt='Profile photo' fill className='object-cover' priority />
+					<Image src='/profile.jpeg' alt='Profile photo' fill className='object-cover' priority />
 				</div>
 			</div>
 
@@ -39,7 +39,7 @@ export default function AboutPage() {
 					{/* Desktop Photo */}
 					<div className='mb-8 hidden md:block'>
 						<div className='relative aspect-4/5 w-full overflow-hidden rounded-2xl'>
-							<Image src='/profile.jpg' alt='Profile photo' fill className='object-cover' priority />
+							<Image src='/profile.jpeg' alt='Profile photo' fill className='object-cover' priority />
 						</div>
 					</div>
 

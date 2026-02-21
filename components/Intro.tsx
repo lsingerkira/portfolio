@@ -9,7 +9,7 @@ export function Intro() {
 			{/* Profile image */}
 			<div>
 				<Image
-					src='/profile.jpg' // replace with your image path
+					src='/profile.jpeg' // replace with your image path
 					alt='Profile picture'
 					width={56}
 					height={56}
