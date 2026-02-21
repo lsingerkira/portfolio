@@ -19,4 +19,4 @@ export const MENU_ITEMS: MenuItem[] = [
 	},
 ];
 
-export const NAME = 'Jon Doe';
+export const NAME = 'Leandro Singer Afonso';

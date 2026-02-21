@@ -14,7 +14,7 @@ export default function Uses() {
 	return (
 		<main className='min-h-screen px-6 py-16 md:px-24'>
 			<div className='mx-auto max-w-6xl'>
-				<section className='flex max-w-[672px] flex-col gap-6'>
+				<section className='flex max-w-2xl flex-col gap-6'>
 					<h1 className='font-bold text-5xl text-foreground leading-tight tracking-tight'>
 						Software I use, gadgets I love, and other tools I recommend
 					</h1>

@@ -44,21 +44,21 @@ export default function Page() {
 			<div className='flex flex-col gap-6 lg:w-full lg:flex-row lg:items-start lg:justify-between'>
 				<div className='space-y-8 lg:flex-1 dark:text-zinc-400'>
 					<ArticleCard
-						date='2023-12-25'
-						title='Lorem ipsum dolor sit amet'
-						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...'
+						date='2026-01-27'
+						title='Why Clean Data Matters More Than Complex Models'
+						description='Strong analytics starts with reliable data. This article explores the impact of data validation, structured transformation, and why clean datasets outperform overly complex solutions in real-world decision-making.'
 						url='/articles/sample-article'
 					/>
 					<ArticleCard
-						date='2023-12-25'
-						title='Lorem ipsum dolor sit amet'
-						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...'
+						date='2025-11-25'
+						title='From Raw Data to Strategic Insight'
+						description='A look at how structured analysis, clear KPIs, and thoughtful dashboard design can transform scattered information into meaningful business direction.'
 						url='/articles/sample-article'
 					/>
 					<ArticleCard
-						date='2024-06-01'
-						title='Lorem ipsum dolor sit amet'
-						description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue...'
+						date='2025-06-02'
+						title='Automation in Analytics: Working Smarter, Not Harder'
+						description='Exploring how automation improves reporting efficiency, reduces manual errors, and allows analysts to focus on higher-level problem solving.'
 						url='/articles/sample-article'
 					/>
 				</div>
@@ -73,16 +73,18 @@ export default function Page() {
 
 					<WorkWidget
 						title={'Work'}
-						content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utet massa mi.'}
+						content={
+							'My professional journey combines business leadership, legal experience, and technical expertise in data analytics and software engineering.'
+						}
 						experiences={experiences}
 					/>
 					<SkillsWidget
 						title={'Skills'}
-						content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.'}
+						content={'Core technologies and tools I use to analyze data and build solutions.'}
 						skills={[
-							{ icon: '/icons/html.svg', name: 'HTML', proficiency: 25 },
-							{ icon: '/icons/css.svg', name: 'CSS', proficiency: 25 },
-							{ icon: '/icons/js.svg', name: 'JavaScript', proficiency: 25 },
+							{ icon: '/icons/html.svg', name: 'HTML', proficiency: 50 },
+							{ icon: '/icons/css.svg', name: 'CSS', proficiency: 30 },
+							{ icon: '/icons/js.svg', name: 'JavaScript', proficiency: 40 },
 						]}
 					/>
 				</div>
