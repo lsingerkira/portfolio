@@ -1,0 +1,32 @@
+html,
+body {
+	height: 100%;
+}
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+	--background: white;
+	--foreground: #171717;
+}
+
+html.dark {
+	--background: oklch(21% 0.006 285.885);
+	--foreground: #ededed;
+}
+
+/* Apply theme variables to the whole page so toggling the .dark class updates background and text */
+body {
+	color: var(--foreground);
+	transition:
+		background-color 0.25s ease,
+		color 0.25s ease;
+	min-height: 100vh;
+}
+
+@theme inline {
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--font-sans: var(--font-roboto-sans);
+}
