@@ -2,94 +2,32 @@ import UsesItem from '@/components/UsesItem';
 import UsesSection from '@/components/UsesSection';
 
 export default function Uses() {
+	const tools = [
+		{ title: 'Power BI', description: 'Dashboarding, reporting, and analytics.' },
+		{ title: 'SQL', description: 'Data extraction, transformation, and validation.' },
+		{ title: 'Python', description: 'Data manipulation, automation, and analysis.' },
+		{ title: 'Snowflake', description: 'Cloud data warehouse for complex queries.' },
+		{ title: 'ETL Tools', description: 'Automated data pipelines for business intelligence.' },
+		{ title: 'AI Tools', description: 'Assisting with reporting, modeling, and insight generation.' },
+	];
+
 	return (
 		<main className='min-h-screen px-6 py-16 md:px-24'>
 			<div className='mx-auto max-w-6xl'>
-				{/* Intro */}
 				<section className='flex max-w-[672px] flex-col gap-6'>
 					<h1 className='font-bold text-5xl text-foreground leading-tight tracking-tight'>
-						Software I use, gadgets I love, and other things I recommend.
+						Software I use, gadgets I love, and other tools I recommend
 					</h1>
-
 					<p className='text-base text-zinc-600 leading-relaxed dark:text-zinc-400'>
-						Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-						adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum
-						dolor sit amet consectetur adipiscing elit Ut et massa mi..
+						These are the tools and software I rely on for data analysis, reporting, and project management.
 					</p>
 				</section>
 
-				{/* Content */}
 				<section className='mt-20 space-y-20'>
-					{/* Workstation */}
-					<UsesSection title='Workstation'>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-					</UsesSection>
-
-					{/* Development tools */}
-					<UsesSection title='Development tools'>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-					</UsesSection>
-
-					{/* Design */}
-					<UsesSection title='Design'>
-						<UsesItem
-							title='Whimsical'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Figma'
-							description='We initially adopted Figma primarily as a design tool, but it has evolved into our virtual whiteboard that serves the entire company. The unexpected allure turned out to be the powerful collaboration features it offers.'
-						/>
-					</UsesSection>
-
-					{/* Productivity */}
-					<UsesSection title='Productivity'>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
-						<UsesItem
-							title='Item Name'
-							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.'
-						/>
+					<UsesSection title='Development Tools'>
+						{tools.map((tool, i) => (
+							<UsesItem key={i} title={tool.title} description={tool.description} />
+						))}
 					</UsesSection>
 				</section>
 			</div>

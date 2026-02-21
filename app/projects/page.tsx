@@ -24,38 +24,38 @@ export default function Projects() {
 		{
 			img: <img src='/icons/logo.svg' alt='Company Logo' className='mb-4 h-12 w-12' />,
 			title: 'Company',
-			description: 'A budgeting app built with React and Tailwind CSS.',
-			link: 'https://github.com/yourusername/finance-tracker',
+			description: 'Under Development',
+			link: 'https://github.com/lsingerkira',
 		},
 		{
 			img: <img src='/icons/logo.svg' alt='Company Logo' className='mb-4 h-12 w-12' />,
 			title: 'Company',
-			description: 'A budgeting app built with React and Tailwind CSS.',
-			link: 'https://github.com/yourusername/finance-tracker',
+			description: 'Under Development',
+			link: 'https://github.com/lsingerkira',
 		},
 		{
 			img: <img src='/icons/logo.svg' alt='Company Logo' className='mb-4 h-12 w-12' />,
 			title: 'Company',
-			description: 'A budgeting app built with React and Tailwind CSS.',
-			link: 'https://github.com/yourusername/finance-tracker',
+			description: 'Under Development',
+			link: 'https://github.com/lsingerkira',
 		},
 		{
 			img: <img src='/icons/logo.svg' alt='Company Logo' className='mb-4 h-12 w-12' />,
 			title: 'Company',
-			description: 'A budgeting app built with React and Tailwind CSS.',
-			link: 'https://github.com/yourusername/finance-tracker',
+			description: 'Under Development',
+			link: 'https://github.com/lsingerkira',
 		},
 		{
 			img: <img src='/icons/logo.svg' alt='Portfolio Logo' className='mb-4 h-12 w-12' />,
-			title: 'Portfolio Website',
-			description: 'My personal website showcasing my skills and work.',
-			link: 'https://yourportfolio.com',
+			title: 'Company',
+			description: 'Under Development',
+			link: 'https://github.com/lsingerkira',
 		},
 		{
 			img: <img src='/icons/logo.svg' alt='Study Helper Logo' className='mb-4 h-12 w-12' />,
-			title: 'Study Guide Helper',
-			description: 'A tool to help students review personal finance concepts.',
-			link: 'https://github.com/yourusername/study-helper',
+			title: 'Company',
+			description: 'Under Development',
+			link: 'https://github.com/lsingerkira',
 		},
 	];
 
@@ -64,15 +64,15 @@ export default function Projects() {
 			{/* ---------------------- */}
 			{/*        HERO SECTION     */}
 			{/* ---------------------- */}
-			<section className='max-w-3xl pt-4'>
-				<h1 className='font-semibold text-5xl text-zinc-900 tracking-tight dark:text-zinc-100'>
+			<section className='flex max-w-2xl flex-col gap-6'>
+				<h1 className='font-bold text-5xl text-foreground leading-tight tracking-tight'>
 					Things I’ve made trying to put my dent in the universe.
 				</h1>
 
-				<p className='mt-4 text-lg text-zinc-600 leading-7 dark:text-zinc-400'>
-					Things I’ve made trying to put my dent in the universe. Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et
-					massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-					adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..
+				<p className='text-base text-zinc-600 leading-relaxed dark:text-zinc-400'>
+					Here you’ll find examples of my work in data analysis, business intelligence, and software engineering. These projects
+					showcase my ability to turn complex data into actionable insights, automate reporting processes, and create solutions
+					that support decision-making and business growth.
 				</p>
 			</section>
 

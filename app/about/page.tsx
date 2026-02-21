@@ -21,15 +21,15 @@ export default function AboutPage() {
 
 					<div className='space-y-6 text-base text-zinc-600 leading-7 dark:text-zinc-400'>
 						<p>
-							Analytical and detail-oriented professional with experience in data analysis, business intelligence, and software
-							engineering. Skilled in transforming complex data into actionable insights using Power BI, SQL, ETL processes,
-							data validation, and AI tools to support executive decision-making. Proven ability to build automated reporting
-							solutions and maintain data accuracy across large, complex data models.
+							I’m an analytical and detail-oriented professional with experience in data analysis, business intelligence, and
+							software engineering. I enjoy transforming complex data into actionable insights using Power BI, SQL, ETL
+							processes, data validation, and AI tools to support executive decision-making. I’ve built automated reporting
+							solutions and take pride in maintaining data accuracy across large, complex data models.
 						</p>
 						<p>
-							Brings strong leadership and project management skills developed through prior experience as a business founder
-							and legal professional. Currently completing a Bachelor’s degree in Software Engineering with a focus on
-							data-driven systems and analytics.
+							I bring strong leadership and project management skills from my experience as a business founder and legal
+							professional. I’m currently completing my Bachelor’s degree in Software Engineering, focusing on data-driven
+							systems and analytics.
 						</p>
 					</div>
 				</div>
